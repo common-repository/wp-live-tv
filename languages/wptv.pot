@@ -1,0 +1,388 @@
+# Copyright (C) 2020 wptv
+# This file is distributed under the same license as the wptv package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wptv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/class-admin.php:24, includes/admin/class-admin.php:25, includes/admin/views/html-import-channels.php:9
+msgid "Import Channels"
+msgstr ""
+
+#: includes/admin/class-admin.php:48
+msgid "All Countries"
+msgstr ""
+
+#: includes/admin/class-dispatcher.php:46
+msgid "File <code>%s</code> does not exist"
+msgstr ""
+
+#: includes/admin/class-dispatcher.php:51
+msgid "No data to parse from <code>%s</code>"
+msgstr ""
+
+#: includes/admin/class-dispatcher.php:70
+msgid "Unable to open file <code>%s</code>"
+msgstr ""
+
+#: includes/admin/class-dispatcher.php:102
+msgid "File <code>%s</code> is not readable"
+msgstr ""
+
+#: includes/admin/class-metabox.php:44
+msgid "Channel Information"
+msgstr ""
+
+#: includes/admin/class-metabox.php:51
+msgid "Channel Logo"
+msgstr ""
+
+#: includes/admin/class-settings-api.php:431
+msgid "Choose File"
+msgstr ""
+
+#: includes/admin/class-settings.php:23
+msgid "Display Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:31
+msgid "Select Archive Page"
+msgstr ""
+
+#: includes/admin/class-settings.php:32
+msgid "Select the channel archive page  which contains <code>[wptv_listing]</code> shortcode."
+msgstr ""
+
+#: includes/admin/class-settings.php:38
+msgid "Show Description"
+msgstr ""
+
+#: includes/admin/class-settings.php:39
+msgid "Show the channel description on the listing"
+msgstr ""
+
+#: includes/admin/class-settings.php:45
+msgid "Show Search Field"
+msgstr ""
+
+#: includes/admin/class-settings.php:46
+msgid "Show the search bar on the listing"
+msgstr ""
+
+#: includes/admin/class-settings.php:52
+msgid "Show Related Channels"
+msgstr ""
+
+#: includes/admin/class-settings.php:53
+msgid "Show the related channels on the single channel page."
+msgstr ""
+
+#: includes/admin/class-settings.php:59
+msgid "Show Prev/ Next"
+msgstr ""
+
+#: includes/admin/class-settings.php:60
+msgid "Show the previous and next channel navigation on the single channel page."
+msgstr ""
+
+#: includes/admin/class-settings.php:83
+msgid "WP TV Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:84, wptv.php:207
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:98
+msgid "WPTV Settings"
+msgstr ""
+
+#: includes/admin/views/html-import-channels.php:13
+msgid "If any error occurred during import, Please reload the page and try again with the previous selected countries."
+msgstr ""
+
+#: includes/admin/views/html-import-channels.php:129, includes/class-enqueue.php:155
+msgid "Run Importer"
+msgstr ""
+
+#: includes/admin/views/html-import-channels.php:133
+msgid "View all Stations"
+msgstr ""
+
+#: includes/admin/views/metabox-logo.php:10
+msgid "Enter the image url or select by clicking the plus icon."
+msgstr ""
+
+#: includes/admin/views/metabox.php:16
+msgid "Video Link:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:20
+msgid "Enter the Live Stream Video Link of the tv channel.<br> You can enter <b>Youtube</b>, <b>Vimeo</b>, <b>Dailymotion</b>, <b>Soundcloud</b> or <b>Self Hosted</b> Video URL."
+msgstr ""
+
+#: includes/admin/views/metabox.php:27
+msgid "Featured Channel:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:40
+msgid "Turn ON, to featured this channel. Get the featured channels by using <code>[wptv_featured]</code> shortcode."
+msgstr ""
+
+#: includes/admin/views/metabox.php:48
+msgid "Channel Website:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:52
+msgid "Enter the website url of the channel."
+msgstr ""
+
+#: includes/admin/views/metabox.php:59
+msgid "Youtube Channel:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:63
+msgid "Enter the youtube channel link of this channel."
+msgstr ""
+
+#: includes/class-cpt.php:51
+msgid "TV Channels"
+msgstr ""
+
+#: includes/class-cpt.php:52
+msgid "Channel"
+msgstr ""
+
+#: includes/class-cpt.php:53
+msgid "Channels"
+msgstr ""
+
+#: includes/class-cpt.php:87, includes/class-cpt.php:89
+msgid "Categories"
+msgstr ""
+
+#: includes/class-cpt.php:88, templates/search-bar.php:58
+msgid "Category"
+msgstr ""
+
+#: includes/class-cpt.php:102, includes/class-cpt.php:104, templates/sidebar.php:8, templates/sidebar.php:14
+msgid "Countries"
+msgstr ""
+
+#: includes/class-cpt.php:103
+msgid "Country"
+msgstr ""
+
+#: includes/class-cpt.php:127, includes/class-cpt.php:160
+msgid "All %s"
+msgstr ""
+
+#: includes/class-cpt.php:129, includes/class-cpt.php:130, includes/class-cpt.php:165
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-cpt.php:131, includes/class-cpt.php:163
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-cpt.php:132
+msgid "New %s"
+msgstr ""
+
+#: includes/class-cpt.php:133
+msgid "View %s"
+msgstr ""
+
+#: includes/class-cpt.php:134
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-cpt.php:135
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-cpt.php:136
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/class-cpt.php:137, includes/class-cpt.php:162
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-cpt.php:157
+msgctxt "taxonomy general name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-cpt.php:158
+msgctxt "taxonomy singular name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-cpt.php:159
+msgid "Search %"
+msgstr ""
+
+#: includes/class-cpt.php:161
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-cpt.php:164
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-cpt.php:166
+msgid "New % Name"
+msgstr ""
+
+#: includes/class-enqueue.php:139
+msgid "You need to select countries, before run the import"
+msgstr ""
+
+#: includes/class-enqueue.php:140
+msgid "Please wait, Import is running..."
+msgstr ""
+
+#: includes/class-enqueue.php:141
+msgid "No country found."
+msgstr ""
+
+#: includes/class-enqueue.php:142
+msgid "Update"
+msgstr ""
+
+#: includes/class-enqueue.php:143
+msgid "Updating"
+msgstr ""
+
+#: includes/class-enqueue.php:144
+msgid "Imported: "
+msgstr ""
+
+#: includes/class-enqueue.php:145
+msgid "Total channel of the country"
+msgstr ""
+
+#: includes/class-enqueue.php:146
+msgid "Premium"
+msgstr ""
+
+#: includes/class-enqueue.php:147
+msgid "Search country to add"
+msgstr ""
+
+#: includes/class-enqueue.php:148
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: includes/class-enqueue.php:149
+msgid "to access total 45000+ channels of 230+ countries."
+msgstr ""
+
+#: includes/class-enqueue.php:150
+msgid "Selected Countries"
+msgstr ""
+
+#: includes/class-enqueue.php:151
+msgid "Selected:"
+msgstr ""
+
+#: includes/class-enqueue.php:152
+msgid "Remaining:"
+msgstr ""
+
+#: includes/class-enqueue.php:153
+msgid "Total Channel:"
+msgstr ""
+
+#: includes/class-enqueue.php:154
+msgid "Import More"
+msgstr ""
+
+#: includes/class-form-handler.php:55
+msgid "No Station Found"
+msgstr ""
+
+#: includes/class-hooks.php:31
+msgid "View Channel"
+msgstr ""
+
+#: includes/functions.php:131
+msgid "Categories:"
+msgstr ""
+
+#: templates/listing/page-content.php:123
+msgid "Post Navigation"
+msgstr ""
+
+#: templates/listing/page-content.php:138
+msgid "Page"
+msgstr ""
+
+#: templates/listing/page-content.php:147
+msgid "Previous"
+msgstr ""
+
+#: templates/listing/page-content.php:149
+msgid "Next"
+msgstr ""
+
+#: templates/no-channel.php:2
+msgid "No Station Found."
+msgstr ""
+
+#: templates/related.php:40
+msgid "You Also May Like"
+msgstr ""
+
+#: templates/search-bar.php:16
+msgid "Search channel by name, country and category"
+msgstr ""
+
+#: templates/search-bar.php:20
+msgid "Search Channel"
+msgstr ""
+
+#: templates/search-bar.php:27
+msgid "Channel Name"
+msgstr ""
+
+#: templates/search-bar.php:38
+msgid "Select Country"
+msgstr ""
+
+#: templates/search-bar.php:76
+msgid "Search"
+msgstr ""
+
+#: templates/sidebar.php:28
+msgid "No Country added yet!"
+msgstr ""
+
+#: templates/single.php:35
+msgid "Country: "
+msgstr ""
+
+#: templates/single.php:95
+msgid "Website"
+msgstr ""
+
+#: templates/single.php:101
+msgid "Video Channel"
+msgstr ""
+
+#: wptv.php:17
+msgid "You can't access this page"
+msgstr ""
+
+#: wptv.php:105
+msgid "Unsupported PHP version Min required PHP Version: \"%s\""
+msgstr ""

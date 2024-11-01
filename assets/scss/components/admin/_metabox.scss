@@ -1,0 +1,31 @@
+.logo-metabox-actions {
+  display: flex;
+
+  input {
+    flex: 1;
+  }
+
+  & > * {
+    margin: 3px;
+  }
+
+  a.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.button-link-delete {
+      margin-left: 3px;
+    }
+  }
+}
+
+.wptv-logo-metabox {
+  max-width: 400px;
+
+  img {
+    margin-top: 5px;
+    max-width: 100%;
+    width: 100px;
+  }
+}

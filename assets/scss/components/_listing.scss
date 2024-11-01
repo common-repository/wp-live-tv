@@ -1,0 +1,450 @@
+.wptv-page-title {
+  display: flex;
+    justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+
+  img {
+    margin-right: 10px;
+
+    @media (max-width: 767px) {
+      width: 32px;
+    }
+  }
+
+  & > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  & > .country {
+    margin-right: 10px;
+  }
+
+  .dashicons {
+    color: #f6931f;
+  }
+
+  .category {
+    margin: 0 10px;
+    text-transform: capitalize;
+  }
+
+  .category, .station-txt {
+    display: flex;
+    align-items: center;
+
+    i {
+      margin-right: 10px;
+      font-size: 20px;
+
+      @media (max-width: 991px) {
+        font-size: 17px;
+      }
+
+    }
+
+  }
+
+  @media (max-width: 991px) {
+    font-size: 20px;
+  }
+
+}
+
+.wptv-listing-page-content {
+  margin-bottom: 15px;
+}
+
+.wptv-listings {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: column;
+
+  @media (max-width: 991px) {
+    position: relative;
+  }
+
+  .wptv-listings-main {
+    justify-self: flex-end;
+    margin-left: auto;
+    width: 100%;
+
+    .wptv-listing-wrapper {
+      width: 100%;
+    }
+
+    .no-station {
+      width: 100%;
+      text-align: center;
+
+      h2 {
+        color: #555;
+      }
+    }
+
+    .wptv-pagination {
+      width: 100%;
+      margin: 30px 0;
+
+      .nav-links {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        list-style: none;
+        border-radius: .25rem;
+
+        & > a, & > span {
+          position: relative;
+          display: flex;
+          align-items: center;
+          padding: 6px 12px;
+          text-decoration: none;
+          font-size: 15px;
+          margin-left: -1px;
+          border: 1px solid #dee2e6;
+
+          &:hover {
+            background: #eee;
+          }
+
+          .dashicons {
+            font-size: inherit;
+            height: auto;
+          }
+
+        }
+
+        & > span.current {
+          background: #eee;
+        }
+      }
+    }
+
+  }
+
+  .wptv-listing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 1;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #f56624;
+    padding: 10px;
+    background-color: #F7F7F7;
+
+    .listing-thumbnail {
+      max-width: 30%;
+
+      @media (max-width: 767px) {
+        img {
+          margin: 0 auto;
+          max-width: 70px;
+        }
+      }
+    }
+
+    .listing-details {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 15px;
+      flex: 1;
+
+      .listing-heading {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        font-weight: bold;
+        flex-wrap: nowrap;
+
+        @media (max-width: 991px) {
+          align-items: center;
+          border-bottom: none;
+          line-height: 1;
+          margin-top: 15px;
+        }
+
+        .station-name {
+          font-size: 20px;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+
+          img {
+            margin-right: 8px;
+          }
+        }
+
+      }
+
+      .categories {
+        width: 100%;
+
+        a {
+          text-decoration: none !important;
+          text-transform: capitalize;
+
+          &:after {
+            content: ', ';
+          }
+
+          &:last-child:after {
+            content: '';
+          }
+        }
+      }
+
+      & > p {
+        margin-top: 10px;
+        line-height: 1.3;
+        flex: 1;
+        margin-bottom: 0;
+      }
+
+    }
+
+    .listing-play {
+      background: #E12A20;
+      color: white;
+      padding: 5px;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      text-decoration: none !important;
+    }
+
+    &:hover {
+      box-shadow: inset -8px -8px 6px -10px #555;
+    }
+
+    &.hide_desc {
+      .play-btn {
+        margin-right: unset;
+        margin-left: auto;
+      }
+    }
+
+    /*mobile*/
+    @media (max-width: 991px) {
+      .listing-details {
+        margin-left: 15px;
+        width: 55%;
+
+        .listing-heading {
+          margin-top: 0;
+          margin-bottom: 5px;
+
+          .station-name {
+            width: 100%;
+
+            span {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+          }
+
+        }
+
+        .categories {
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .listing-desc {
+          display: none;
+        }
+
+      }
+    }
+
+  }
+
+  &.full-width, &.grid {
+    .wptv-listings-main {
+      width: 100%;
+    }
+  }
+
+  &.grid {
+
+    .wptv-page-title {
+      justify-content: center;
+    }
+
+    .wptv-listings-main {
+      width: 100%;
+      flex-flow: row wrap;
+
+      .wptv-listing {
+        width: auto;
+        flex-flow: column;
+        margin: 5px;
+        align-items: center;
+
+        .listing-thumbnail {
+          max-width: 100%;
+        }
+
+        .listing-details {
+          margin-left: 0;
+          width: 100%;
+
+          .listing-heading {
+            border-bottom: none;
+            margin-top: 6px;
+            justify-content: space-between;
+            margin-bottom: 0;
+
+            a {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+//=== Grid ===
+.wptv-listing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .wptv-listing {
+    width: calc(25% - 20px);
+    padding: 0;
+    margin: 10px;
+    align-items: normal;
+    flex-flow: column;
+
+    .listing-thumbnail {
+      max-width: 100%;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .listing-details {
+      margin: 0;
+      text-align: center;
+      align-self: flex-end;
+      margin-top: auto;
+      flex-flow: wrap;
+      width: 100%;
+      padding-bottom: 0;
+      display: inline-table;
+
+      .listing-heading {
+        border: none;
+        justify-content: flex-start;
+        background: #dddddd;
+        margin-bottom: 0;
+        padding-left: 5px;
+
+        .station-name {
+          font-size: 1em;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          padding: 8px;
+          margin: 0;
+        }
+
+      }
+
+      .categories {
+        display: none;
+      }
+
+      @media (max-width: 991px) {
+        margin: 0 !important;
+        height: 100%;
+      }
+
+    }
+
+    .play-btn {
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+      position: absolute;
+      right: 5px;
+      bottom: 0;
+
+      .dashicons {
+        font-size: 30px;
+
+        &.dashicons-controls-pause {
+          font-size: 18px;
+          margin-bottom: 3px;
+        }
+
+        &.wptv-seeking {
+          height: 20px !important;
+          width: 25px !important;
+        }
+      }
+    }
+
+    &.listing-col-6{
+      width: calc(16.66% - 20px);
+    }
+
+
+    &.listing-col-5{
+      width: calc(20% - 20px);
+    }
+
+    &.listing-col-3{
+      width: calc(33.33% - 20px);
+    }
+
+    &.listing-col-2{
+      width: calc(50% - 20px);
+    }
+
+    &.listing-col-1{
+      width: 100%;
+    }
+
+  }
+
+  @media (max-width: 1199px) {
+    .wptv-listing {
+      flex-flow: row;
+      width: 100% !important;
+      padding: 15px 5px;
+      margin: 5px 0;
+
+      .listing-heading {
+        background: transparent !important;
+
+        .station-name {
+          margin-right: 35px !important;
+        }
+      }
+
+      .play-btn {
+        margin-bottom: 3px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+    }
+  }
+
+}
+

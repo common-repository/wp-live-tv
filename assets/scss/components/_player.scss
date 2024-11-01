@@ -1,0 +1,50 @@
+.wptv-media-player {
+
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  button:not(.toggle) {
+    background-color: transparent;
+  }
+
+}
+
+.player-external {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 30px;
+  color: #fff;
+  border-radius: 5px;
+
+  i {
+    font-size: 5rem;
+    width: auto;
+    height: auto;
+
+  }
+
+  div {
+    display: flex;
+    flex-flow: column;
+    line-height: 1.5;
+
+    span {
+      &:first-child {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      &:last-child {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  &:hover {
+    color: darken(#fff, 20%);
+  }
+}

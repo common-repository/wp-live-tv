@@ -1,0 +1,512 @@
+# Copyright (C) 2021 wp-live-tv
+# This file is distributed under the same license as the wp-live-tv package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-live-tv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/class-admin.php:24, includes/admin/class-admin.php:25, includes/admin/views/html-import-channels.php:11
+msgid "Import Channels"
+msgstr ""
+
+#: includes/admin/class-admin.php:32, includes/admin/class-admin.php:32
+msgid "Get Started"
+msgstr ""
+
+#: includes/admin/class-admin.php:60
+msgid "All Countries"
+msgstr ""
+
+#: includes/admin/class-admin.php:124
+msgid "TV Archive"
+msgstr ""
+
+#: includes/admin/class-metabox.php:44
+msgid "Channel Information"
+msgstr ""
+
+#: includes/admin/class-settings-api.php:456
+msgid "Choose File"
+msgstr ""
+
+#: includes/admin/class-settings.php:23
+msgid "%s General Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:27
+msgid "%s Display Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:31
+msgid "%s Player Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:35
+msgid "%s Color Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:44
+msgid "Select Archive Page"
+msgstr ""
+
+#: includes/admin/class-settings.php:45
+msgid "Select the channel archive page  which contains <code>[wptv_listing]</code> shortcode."
+msgstr ""
+
+#: includes/admin/class-settings.php:56
+msgid "Channels Per Page :"
+msgstr ""
+
+#: includes/admin/class-settings.php:57
+msgid "Enter the number how many channels will be displayed on the listing page."
+msgstr ""
+
+#: includes/admin/class-settings.php:65
+msgid "Channel Archive Layout"
+msgstr ""
+
+#: includes/admin/class-settings.php:66
+msgid "Choose the Channel Archive Page Listing View. Left (List View), Right (Grid List View)."
+msgstr ""
+
+#: includes/admin/class-settings.php:77
+msgid "Show Description"
+msgstr ""
+
+#: includes/admin/class-settings.php:78
+msgid "Show the channel description on the listing"
+msgstr ""
+
+#: includes/admin/class-settings.php:85
+msgid "Show Search Field"
+msgstr ""
+
+#: includes/admin/class-settings.php:86
+msgid "Show the search bar on the listing"
+msgstr ""
+
+#: includes/admin/class-settings.php:93
+msgid "Show Related Channels"
+msgstr ""
+
+#: includes/admin/class-settings.php:94
+msgid "Show the related channels on the single channel page."
+msgstr ""
+
+#: includes/admin/class-settings.php:101
+msgid "Show Prev/ Next"
+msgstr ""
+
+#: includes/admin/class-settings.php:102
+msgid "Show the previous and next channel navigation on the single channel page."
+msgstr ""
+
+#: includes/admin/class-settings.php:114
+msgid "Channel Autoplay"
+msgstr ""
+
+#: includes/admin/class-settings.php:115
+msgid "ON/ OFF Channel Autoplay."
+msgstr ""
+
+#: includes/admin/class-settings.php:122
+msgid "Player Volume :"
+msgstr ""
+
+#: includes/admin/class-settings.php:123
+msgid "Set the player default volume."
+msgstr ""
+
+#: includes/admin/class-settings.php:132
+msgid "Channel Listing Color"
+msgstr ""
+
+#: includes/admin/class-settings.php:137
+msgid "Listing Background Color :"
+msgstr ""
+
+#: includes/admin/class-settings.php:138
+msgid "Customize the channel listing background color."
+msgstr ""
+
+#: includes/admin/class-settings.php:145
+msgid "Listing Hover Background :"
+msgstr ""
+
+#: includes/admin/class-settings.php:146
+msgid "Customize the channel listing hover background color."
+msgstr ""
+
+#: includes/admin/class-settings.php:153
+msgid "Listing Play Color :"
+msgstr ""
+
+#: includes/admin/class-settings.php:154
+msgid "Customize the listing play button color."
+msgstr ""
+
+#: includes/admin/class-settings.php:162
+msgid "Listing Play Background:"
+msgstr ""
+
+#: includes/admin/class-settings.php:163
+msgid "Customize the listing play button background color."
+msgstr ""
+
+#: includes/admin/class-settings.php:171
+msgid "Video Player Color"
+msgstr ""
+
+#: includes/admin/class-settings.php:177
+msgid "Player Background :"
+msgstr ""
+
+#: includes/admin/class-settings.php:178
+msgid "Customize the channel video player ."
+msgstr ""
+
+#: includes/admin/class-settings.php:316
+msgid "WP TV Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:317, includes/base.php:172
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:331
+msgid "WPTV Settings"
+msgstr ""
+
+#: includes/admin/views/get-started/import.php:1
+msgid "Import Stations"
+msgstr ""
+
+#: includes/admin/views/get-started/setup.php:1
+msgid "Plugin Setup Guide"
+msgstr ""
+
+#: includes/admin/views/get-started/shortcodes.php:1
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/admin/views/html-import-channels.php:38
+msgid "Start Import"
+msgstr ""
+
+#: includes/admin/views/html-import-channels.php:64
+msgid "See all Channels"
+msgstr ""
+
+#: includes/admin/views/html-import-channels.php:68, includes/class-enqueue.php:151
+msgid "Import More"
+msgstr ""
+
+#: includes/admin/views/metabox.php:19
+msgid "Video Link:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:24
+msgid "Enter the Live Stream Video Link of the tv channel.<br> You can enter <b>Youtube</b>, <b>Vimeo</b>, <b>Dailymotion</b>, <b>Soundcloud</b> or <b>Self Hosted</b> Video URL."
+msgstr ""
+
+#: includes/admin/views/metabox.php:34
+msgid "Is External Link?:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:55
+msgid "Channel Logo:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:60
+msgid "Enter the image url or select by clicking the plus icon."
+msgstr ""
+
+#: includes/admin/views/metabox.php:78
+msgid "Channel Website:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:82
+msgid "Enter the website url of the channel."
+msgstr ""
+
+#: includes/admin/views/metabox.php:89
+msgid "Youtube Channel:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:93
+msgid "Enter the youtube channel link of this channel."
+msgstr ""
+
+#: includes/admin/views/metabox.php:100
+msgid "Featured Channel:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:113
+msgid "Turn ON, to featured this channel. Get the featured channels by using <code>[wptv_featured]</code> shortcode."
+msgstr ""
+
+#: includes/base.php:4, plugin.php:16
+msgid "You can't access this page"
+msgstr ""
+
+#: includes/base.php:81
+msgid "Unsupported PHP version Min required PHP Version: \"%s\""
+msgstr ""
+
+#: includes/class-cpt.php:51
+msgid "TV Channels"
+msgstr ""
+
+#: includes/class-cpt.php:52
+msgid "Channel"
+msgstr ""
+
+#: includes/class-cpt.php:53
+msgid "Channels"
+msgstr ""
+
+#: includes/class-cpt.php:87, includes/class-cpt.php:89
+msgid "Categories"
+msgstr ""
+
+#: includes/class-cpt.php:88
+msgid "Category"
+msgstr ""
+
+#: includes/class-cpt.php:102, includes/class-cpt.php:104, templates/sidebar.php:8, templates/sidebar.php:14
+msgid "Countries"
+msgstr ""
+
+#: includes/class-cpt.php:103
+msgid "Country"
+msgstr ""
+
+#: includes/class-cpt.php:127, includes/class-cpt.php:160
+msgid "All %s"
+msgstr ""
+
+#: includes/class-cpt.php:129, includes/class-cpt.php:130, includes/class-cpt.php:165
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-cpt.php:131, includes/class-cpt.php:163
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-cpt.php:132
+msgid "New %s"
+msgstr ""
+
+#: includes/class-cpt.php:133
+msgid "View %s"
+msgstr ""
+
+#: includes/class-cpt.php:134, includes/class-cpt.php:159
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-cpt.php:135
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-cpt.php:136
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/class-cpt.php:137, includes/class-cpt.php:162
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-cpt.php:157
+msgctxt "taxonomy general name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-cpt.php:158
+msgctxt "taxonomy singular name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-cpt.php:161
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-cpt.php:164
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-cpt.php:166
+msgid "New %s Name"
+msgstr ""
+
+#: includes/class-elementor-widget.php:15
+msgid "TV Player"
+msgstr ""
+
+#: includes/class-elementor-widget.php:34
+msgid "Alignment"
+msgstr ""
+
+#: includes/class-elementor-widget.php:41
+msgid "TV Channel"
+msgstr ""
+
+#: includes/class-elementor-widget.php:47
+msgid "Channel ID"
+msgstr ""
+
+#: includes/class-enqueue.php:136
+msgid "You need to select countries, before run the import"
+msgstr ""
+
+#: includes/class-enqueue.php:137
+msgid "Please wait, Import is running..."
+msgstr ""
+
+#: includes/class-enqueue.php:138
+msgid "No country found."
+msgstr ""
+
+#: includes/class-enqueue.php:139
+msgid "Update"
+msgstr ""
+
+#: includes/class-enqueue.php:140
+msgid "Updating"
+msgstr ""
+
+#: includes/class-enqueue.php:141
+msgid "Imported: "
+msgstr ""
+
+#: includes/class-enqueue.php:142
+msgid "Total channel of the country"
+msgstr ""
+
+#: includes/class-enqueue.php:143
+msgid "Premium"
+msgstr ""
+
+#: includes/class-enqueue.php:144
+msgid "Search country to add"
+msgstr ""
+
+#: includes/class-enqueue.php:145
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: includes/class-enqueue.php:146
+msgid "to import all the channels of 40+ countries."
+msgstr ""
+
+#: includes/class-enqueue.php:147
+msgid "Selected Countries"
+msgstr ""
+
+#: includes/class-enqueue.php:148
+msgid "Selected:"
+msgstr ""
+
+#: includes/class-enqueue.php:149
+msgid "Remaining:"
+msgstr ""
+
+#: includes/class-enqueue.php:150
+msgid "Total Channel:"
+msgstr ""
+
+#: includes/class-enqueue.php:152
+msgid "Run Importer"
+msgstr ""
+
+#: includes/class-form-handler.php:131
+msgid "No Station Found"
+msgstr ""
+
+#: includes/class-hooks.php:94
+msgid "View Channel"
+msgstr ""
+
+#: includes/class-widget__premium_only.php:16
+msgid "List all the TV channel countries."
+msgstr ""
+
+#: includes/class-widget__premium_only.php:19
+msgid "TV Country List"
+msgstr ""
+
+#: includes/class-widget__premium_only.php:49
+msgid "Title:"
+msgstr ""
+
+#: includes/functions.php:138
+msgid "Categories:"
+msgstr ""
+
+#: templates/listing/page-content.php:125
+msgid "Post Navigation"
+msgstr ""
+
+#: templates/listing/page-content.php:140
+msgid "Page"
+msgstr ""
+
+#: templates/listing/page-content.php:149
+msgid "Previous"
+msgstr ""
+
+#: templates/listing/page-content.php:151
+msgid "Next"
+msgstr ""
+
+#: templates/no-channel.php:2
+msgid "No Channel Found."
+msgstr ""
+
+#: templates/related.php:40
+msgid "You Also May Like"
+msgstr ""
+
+#: templates/search-bar.php:17
+msgid "Search channel by name, country"
+msgstr ""
+
+#: templates/search-bar.php:22
+msgid "Search Channel"
+msgstr ""
+
+#: templates/search-bar.php:29
+msgid "Channel Name"
+msgstr ""
+
+#: templates/search-bar.php:35
+msgid "Select Country"
+msgstr ""
+
+#: templates/search-bar.php:50
+msgid "Search"
+msgstr ""
+
+#: templates/sidebar.php:40
+msgid "No Country added yet!"
+msgstr ""
+
+#: templates/single.php:35
+msgid "Country: "
+msgstr ""
+
+#: templates/single.php:74
+msgid "Website"
+msgstr ""
+
+#: templates/single.php:80
+msgid "Video Channel"
+msgstr ""

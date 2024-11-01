@@ -1,0 +1,148 @@
+#wptv_gutenberg_block_doc,
+#wptv_elementor_widget_doc,
+#wptv_wp_radio_doc
+{
+  h2 {
+    font-weight: bold;
+  }
+
+  th {
+    display: none;
+  }
+
+  .submit{
+    display: none;
+  }
+
+}
+
+#wptv_shortcodes_settings {
+  .shortcodes_view > th {
+    display: none;
+  }
+
+  .submit {
+    display: none;
+  }
+
+  .shortcode{
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+
+    &:last-child{
+      border: none;
+    }
+  }
+
+}
+
+#wptv_get_started {
+  .get_started > th {
+    display: none;
+  }
+
+  .submit {
+    display: none;
+  }
+}
+
+.wp-military-settings {
+
+  &-sidebar > ul > li a {
+    display: flex !important;
+    align-items: center;
+    padding: 0 10px !important;
+
+    i, img {
+      margin-right: 5px;
+      color: deeppink;
+    }
+  }
+
+  &-content {
+
+    .iris-border {
+      width: 260px !important;
+      height: 230px !important;
+    }
+
+    .form-table {
+      tr {
+        border-bottom: 1px solid palegoldenrod;
+      }
+    }
+
+    .block_doc, .widget_doc {
+      p {
+        font-size: 16px;
+      }
+
+      img {
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        max-width: 600px;
+      }
+    }
+
+    .wp-radio-content {
+      .addon-banner img {
+        width: 100%;
+        max-height: 300px;
+      }
+
+      .addon-meta {
+        a {
+          display: flex;
+          align-items: center;
+          border: 1px solid deepskyblue;
+          margin: 10px 0 20px 0;
+          padding: 10px;
+          border-radius: 5px;
+          text-decoration: none;
+
+          img {
+            margin-right: 15px;
+            max-width: 150px;
+            border-radius: 5px;
+          }
+        }
+      }
+
+      .addon-desc {
+        p {
+          font-size: 17px;
+        }
+      }
+
+      .addon-actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        a {
+          margin: 20px;
+          border: 1px solid deepskyblue;
+          padding: 10px;
+          text-decoration: none;
+          border-radius: 5px;
+        }
+      }
+
+      .addon-features {
+        li {
+          margin: 15px 0;
+
+          b{
+            font-size: 16px;
+          }
+
+          h3 {
+            border-bottom: 1px solid deepskyblue;
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}

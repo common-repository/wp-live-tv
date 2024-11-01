@@ -1,0 +1,166 @@
+a[href='edit.php?post_type=wptv&page=wptv-get-started'] {
+  color: orange !important;
+}
+
+.tab-wrap {
+  display: flex;
+  border: 1px solid #ddd;
+  flex-flow: row;
+
+  /*------------- tab links ------------*/
+  .tab-links {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+
+    .tab-link {
+      padding: 12px;
+      background: #0073aa;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      border-bottom: 1px solid #fff;
+      font-size: 14px;
+
+      img, i {
+        width: 24px;
+        margin-right: 5px;
+      }
+
+      &.active {
+        background: #fff;
+        color: #0073aa;
+      }
+    }
+  }
+
+  //tab content
+  .tab-content {
+    flex: 1;
+    padding: 15px;
+    background: #F7FCFE;
+    display: none;
+    font-size: 1rem;
+
+    code{
+      color: darkred;
+    }
+
+    &-title {
+      font-size: 20px;
+      margin: 0 0 20px;
+      border-bottom: 1px solid #777;
+      padding: 10px 0 20px 0;
+    }
+
+    &.active {
+      display: block;
+    }
+
+    p{
+      line-height: 1.5;
+      margin: 10px 0 15px;
+      font-size: 1rem;
+      max-width: 800px;
+    }
+
+    img{
+      box-shadow: 1px 1px 3px #555;
+      border-radius: 8px;
+
+      max-width: 640px;
+    }
+
+  }
+
+  /*----------- tab content section --------*/
+  .tab-content-section {
+    border: 1px solid #999;
+    padding: 15px 20px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+
+    &-title {
+      font-size: 20px;
+      margin: 0;
+      border-bottom: 1px solid #eee;
+      background: #0073aa;
+      color: #fff;
+      padding: 15px 10px;
+      border-radius: 8px;
+    }
+
+    blockquote {
+      &:before, &:after {
+        font-size: 18px;
+        font-weight: bold;
+        color: cornflowerblue;
+      }
+
+      &:before {
+        content: '“';
+      }
+
+      &:after {
+        content: '”';
+      }
+    }
+
+  }
+
+  /*----------- change logs -----------*/
+  .logs {
+
+    .log {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #ddd;
+
+      i {
+        background: #0073aa;
+        color: #fff;
+        padding: 2px;
+        margin-right: 5px;
+        border-radius: 18px;
+      }
+
+      .badge {
+        background: #9B59B6;
+        padding: 3px 8px;
+        color: #fff;
+        border-radius: 3px;
+        margin-right: 10px;
+        min-width: 50px;
+        text-align: center;
+        font-size: .9rem;
+      }
+    }
+  }
+
+}
+
+
+/*--------- FAQ ----------*/
+#faq {
+  .tab-content-section {
+
+    &-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+
+    p {
+      display: none;
+    }
+
+    &.active {
+
+    }
+
+  }
+}

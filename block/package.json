@@ -1,0 +1,24 @@
+{
+  "name": "wptv-block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/webpack": "^4.3.3",
+    "@wordpress/scripts": "^6.0.0",
+    "css-loader": "^5.0.1",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^2.2.0"
+  },
+  "dependencies": {
+    "react-select": "^3.1.0"
+  }
+}
